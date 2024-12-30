@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { useOutletContext, Navigate } from 'react-router-dom';
-import { Heading, Logo, Main, Table } from '../../../../components';
+import { Heading, Main, Table } from '../../../../components';
 import './ConfirmedBooking.css';
 
 export const ConfirmedBooking = () => {
@@ -30,11 +30,6 @@ export const ConfirmedBooking = () => {
   return stage === 'Thank You' ? (
     <Main>
       <section className="LL-BookingConfirmation">
-        <Logo
-          src="https://ik.imagekit.io/zenius/Coursera/html-css/Asset_16_4x_nnQ67G1HkI.png?ik-sdk-version=javascript-1.4.3&updatedAt=1674426270946"
-          height="100px"
-          width="fit-content"
-        />
         <Heading size="xl">Booking Confirmed</Heading>
         <p>
           We are pleased to inform you that your reservation request has been

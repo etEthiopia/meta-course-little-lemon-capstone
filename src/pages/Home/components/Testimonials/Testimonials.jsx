@@ -14,6 +14,7 @@ export const Testimonials = ({ data }) => {
             title={`Testimonial by ${name}`}
             imagePosition="left"
             image={image}
+            width="350px"
           >
             <Heading tag="h3" size="base" className="LL-Testimonial-Name">
               {name}

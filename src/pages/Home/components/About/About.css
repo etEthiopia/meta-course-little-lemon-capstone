@@ -49,13 +49,16 @@
     padding: 12%;
   }
 
-  .about-columns {
-    gap: 0px !important;
+  .about-left-column {
+    width: 100%;
   }
 
-  #about-images img {
-    width: auto;
-    height: auto;
+  .about-right-column {
+    display: none;
+  }
+
+  .about-columns {
+    gap: 0px !important;
   }
 
   #about-first-image,
